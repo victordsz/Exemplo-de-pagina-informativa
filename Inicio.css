@@ -1,0 +1,76 @@
+body{
+
+    background-image: url(assets/background812.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+
+    background-image : linear-gradient(to bottom, rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.237));
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+img{
+
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    top:2% 
+}
+
+h1{
+
+  color: rgb(179, 178, 178);
+  text-align:center;
+  margin-top: 0%;
+  font-family: "Roboto Condensed", "sans-serif";
+}
+
+nav{
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+          
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+section{
+
+   display: flex; 
+   justify-content: space-evenly; 
+   justify-content: right; 
+   align-items: center;   
+   
+   
+}
+div{
+
+    right: 450%;
+    background-color: rgb(200, 199, 196);
+    width: 478px;
+    margin-top: 20%;
+    line-height:130%;
+    padding: 3%;
+    font-family: "Roboto Condensed", "sans-serif";
+}
+
+
+.card .imagem-div1 {
+
+    margin-top: 10%;
+    top: 5%;
+    width: 39%;
+    right: 12%;
+    height: auto;
+    box-sizing: border-box;
+    position: fixed;
+}
