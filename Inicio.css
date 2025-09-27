@@ -1,29 +1,31 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
     background-image: url(assets/background812.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 header{
-
-    background-image : linear-gradient(to bottom, rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.237));
+    width: 100%;
     position: fixed;
+    background-image : linear-gradient(to bottom, rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.237));
     top: 0%;
     left: 0%;
-    width: 100%;
 }
 
 img{
-
-    position: fixed;
     width: 100px;
     height: 50px;
-    top:2% 
+    position: fixed;
+    top: 2%;
 }
 
 h1{
-
   color: rgb(179, 178, 178);
   text-align:center;
   margin-top: 0%;
@@ -31,46 +33,39 @@ h1{
 }
 
 nav{
-
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
 }
 
-main{
-          
+main{         
    display: flex;
    justify-content: space-evenly;
-   
 }
-section{
 
+section{
    display: flex; 
    justify-content: space-evenly; 
    justify-content: right; 
-   align-items: center;   
-   
-   
+   align-items: center;      
 }
-div{
 
+div{
+    width: 478px;
     right: 450%;
     background-color: rgb(200, 199, 196);
-    width: 478px;
     margin-top: 20%;
-    line-height:130%;
+    line-height: 130%;
     padding: 3%;
     font-family: "Roboto Condensed", "sans-serif";
 }
 
-
 .card .imagem-div1 {
-
+    width: 39%;
+    height: auto;
     margin-top: 10%;
     top: 5%;
-    width: 39%;
     right: 12%;
-    height: auto;
     box-sizing: border-box;
     position: fixed;
 }
